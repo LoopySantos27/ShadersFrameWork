@@ -1,0 +1,16 @@
+Color Effect
+El color effect es un Effecto que se basa en poner la pantalla en un color 
+predominante, para hacer esto se necesita un blend entre la intensidad y el color
+deseado en el script de postprocessing.
+Despues se le agrega al shader que mida la porcion de iluminacion en base a su intensidad
+y despues mostrar el color haciendo una multiplicacion entre el color deseado y la luminocidad.
+
+
+OutlineEffect
+Para hacer este efecto tipo outline es necesario datos como el grosor de este,
+el borde del objeto y una suavidad para el efecto, mas el color deseado.
+Despues de haber definido estos valores los vamos a empezar a modificar,
+Todo va a ser en base a la camara, todos los lados del objeto, arriba, abajo,
+izquierda, derecha, en cada uno de estos guardaremos los datos de esas posiciones
+para despues agredatle el valor final al output deseado.
+Gerardo Santos :D

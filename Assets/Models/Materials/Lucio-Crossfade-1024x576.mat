@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lucio-Crossfade-1024x576
+  m_Shader: {fileID: 4800000, guid: 9130410b9b43d1940bba07213c8110a9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 29a98df77d4dd564f88f7988dde0abf2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DiffuseFactor: 0.3
+    - _Metallic: 0
+    - _Smoothness: 0.5
+    - _SpecularFactor: 1
+    - _ambientInt: 0.25
+    - _diffuseInt: 1
+    - _directionalLightIntensity: 1
+    - _pointLightIntensity: 1
+    - _scecularExp: 2
+    m_Colors:
+    - _ambientColor: {r: 0, g: 0, b: 0, a: 1}
+    - _directionalLightColor: {r: 0, g: 0, b: 0, a: 1}
+    - _directionalLightDir: {r: 0, g: 1, b: 0, a: 1}
+    - _objectColor: {r: 0, g: 0, b: 0, a: 1}
+    - _pointLightColor: {r: 0, g: 0, b: 0, a: 1}
+    - _pointLightPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
